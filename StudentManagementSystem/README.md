@@ -1,7 +1,6 @@
 # Student Management System
 
-**Name and Surname:** Tiyani Ngwana  
-**Student Number:** 231266731  
+**Name and Surname:** Tiyani Ngwana   
 **Module:** ADP372S - Mini Assignment 1  
 **Date:** 16 February 2026
 
@@ -228,4 +227,5 @@ StudentManagementSystem/
 ## Conclusion
 
 This Student Management System demonstrates clean object-oriented design by applying SOLID principles, particularly the **Single Responsibility Principle** and the **Open/Closed Principle**. The use of the **Builder Pattern** further enhances code readability and maintainability.
+
 
