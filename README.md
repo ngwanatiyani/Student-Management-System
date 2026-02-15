@@ -4,13 +4,13 @@ A Java-based Student Management System built for university administration, demo
 
 ---
 
-## 📋 Project Overview
+##  Project Overview
 
 This application manages student records with support for both undergraduate and graduate students. It uses the Builder pattern to create student objects with multiple optional attributes, ensuring clean and maintainable code.
 
 ---
 
-## 🏗️ Design Patterns
+##  Design Patterns
 
 ### Builder Design Pattern
 - Simplifies construction of complex student objects
@@ -20,7 +20,7 @@ This application manages student records with support for both undergraduate and
 
 ---
 
-## ⚙️ SOLID Principles Applied
+##  SOLID Principles Applied
 
 ### 1. Single Responsibility Principle (SRP)
 **Definition:** A class should have only one reason to change.
@@ -41,7 +41,7 @@ This application manages student records with support for both undergraduate and
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 1. **Clone the repository:**
    ```bash
@@ -59,7 +59,7 @@ This application manages student records with support for both undergraduate and
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **Language:** Java
 - **Design Pattern:** Builder Pattern
@@ -67,7 +67,7 @@ This application manages student records with support for both undergraduate and
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 Student-Management-System/
@@ -81,12 +81,12 @@ Student-Management-System/
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Ngwanatiyani**
 
 ---
 
-## 📝 License
+##  License
 
 This project is part of the ADP372S Mini Assignment 1.
