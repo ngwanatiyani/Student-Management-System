@@ -1,48 +1,92 @@
-# Student-Management-System-ADP372S Mini Assignment 1
+# Student Management System
 
-Project Description
-This Java application is a Student Management System designed for a university. It utilizes the Builder Design Pattern to handle the creation of student objects with multiple optional attributes. The system supports different student types, including Undergraduate and Graduate students, through inheritance and polymorphism.
+A Java-based Student Management System built for university administration, demonstrating the **Builder Design Pattern** and **SOLID Principles**.
 
+---
 
-SOLID Principles Applied
-1. Single Responsibility Principle (SRP)
-Definition: A class should have only one reason to change.
+## 📋 Project Overview
 
+This application manages student records with support for both undergraduate and graduate students. It uses the Builder pattern to create student objects with multiple optional attributes, ensuring clean and maintainable code.
 
-Application: In this project, the UndergraduateStudent and GraduateStudent classes are strictly responsible for storing student data and calculating tuition.
+---
 
+## 🏗️ Design Patterns
 
+### Builder Design Pattern
+- Simplifies construction of complex student objects
+- Handles multiple optional attributes elegantly
+- Provides a fluent interface for object creation
+- Separates object construction from representation
 
-Reference: The complex logic of object construction is moved to the internal Builder static nested classes. This ensures that if the way we construct a student changes, we don't have to modify the core student logic itself.
+---
 
-2. Liskov Substitution Principle (LSP)
-Definition: Objects of a superclass should be replaceable with objects of its subclasses without breaking the application.
+## ⚙️ SOLID Principles Applied
 
+### 1. Single Responsibility Principle (SRP)
+**Definition:** A class should have only one reason to change.
 
-Application: The Main class treats both UndergraduateStudent and GraduateStudent as instances of the abstract Student class.
+**Application:** 
+- `UndergraduateStudent` and `GraduateStudent` classes focus solely on storing student data and calculating tuition
+- Complex construction logic is delegated to internal `Builder` static nested classes
+- Changes to construction logic don't affect core student classes
 
+### 2. Liskov Substitution Principle (LSP)
+**Definition:** Objects of a superclass should be replaceable with objects of its subclasses without breaking the application.
 
+**Application:**
+- Both `UndergraduateStudent` and `GraduateStudent` extend the abstract `Student` class
+- The `Main` class can treat both subclasses uniformly as `Student` objects
+- Both subclasses properly implement `calculateTuition()` and `displayStudentDetails()` methods
+- Polymorphic behavior works seamlessly throughout the application
 
-Reference: Because both subclasses implement the calculateTuition() and displayStudentDetails() methods , the system can call these methods on any Student object without needing to know its specific subtype.
+---
 
+## 🚀 How to Run
 
-How to Run the Application
-Clone this repository:
-git clone <your-repo-link>
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/ngwanatiyani/Student-Management-System.git
+   ```
 
-Open the project in your preferred IDE (IntelliJ, Eclipse, or NetBeans).
+2. **Open the project:**
+   - Use your preferred IDE (IntelliJ IDEA, Eclipse, or NetBeans)
 
-Run the Main.java file.
+3. **Run the application:**
+   - Execute `Main.java`
 
-The console will display the details and calculated tuition for the constructed student objects.
+4. **View output:**
+   - Student details and calculated tuition will be displayed in the console
 
-Technologies Used
+---
 
-Language: Java 
+## 🛠️ Technologies Used
 
+- **Language:** Java
+- **Design Pattern:** Builder Pattern
+- **Principles:** SOLID
 
+---
 
-Pattern: Builder Design Pattern 
+## 📂 Project Structure
 
+```
+Student-Management-System/
+├── src/
+│   ├── Student.java (Abstract base class)
+│   ├── UndergraduateStudent.java
+│   ├── GraduateStudent.java
+│   └── Main.java
+└── README.md
+```
 
-Principles: SOLID
+---
+
+## 👨‍💻 Author
+
+**Ngwanatiyani**
+
+---
+
+## 📝 License
+
+This project is part of the ADP372S Mini Assignment 1.
