@@ -1,4 +1,9 @@
 # Student Management System-ADP372S Mini Assignment 1
+
+
+##  Author: **Ngwana Tiyani**
+
+
  
 **Module:** ADP372S - Mini Assignment 1  
 **Date:** 16 February 2026
@@ -231,9 +236,7 @@ This Student Management System demonstrates clean object-oriented design by appl
 
 
 
-##  Author
 
-**Ngwanatiyani**
 
 ---
 
