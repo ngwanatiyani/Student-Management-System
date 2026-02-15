@@ -1,4 +1,4 @@
-# Student Management System
+# Student Management System-ADP372S Mini Assignment 1
 
 A Java-based Student Management System built for university administration, demonstrating the **Builder Design Pattern** and **SOLID Principles**.
 
