@@ -1,4 +1,4 @@
-# Student-Management-System
+# Student-Management-System-ADP372S Mini Assignment 1
 
 Project Description
 This Java application is a Student Management System designed for a university. It utilizes the Builder Design Pattern to handle the creation of student objects with multiple optional attributes. The system supports different student types, including Undergraduate and Graduate students, through inheritance and polymorphism.
